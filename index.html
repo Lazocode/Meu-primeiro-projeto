@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+</head>
+<body>
+    <header>
+        <h1>Lista de Tarefas</h1>
+        <nav>
+            <ul class ="menu">
+                <li><a href="#pendentes">Pendentes</a></li>
+                <li><a href="#concluidas">Concluídas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Adicionar Nova Tarefa</h2>
+            <form>
+                <label class="label-tarefa" for="nova-tarefa">Tarefa:</label>
+                <input type="text" id="nova-tarefa" name="nova-tarefa" placeholder="Escreva sua tarefa" required>
+                <button type="button" id="btn-adicionar">Adicionar</button>
+            </form>
+        </section>
+
+        <section id="pendentes">
+            <h2>Tarefas Pendentes</h2>
+            <ul> 
+                
+            </ul>
+            <button id="btn-concluir">Concluir</button>
+            <button id="btn-remover">Remover</button>
+        </section>
+
+        <section id="concluidas">
+            <h2>Tarefas Concluídas</h2>
+            <ul>
+            
+            </ul>
+            <button id="btn-limpar">Limpar Concluídas</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Lista de Tarefas</p>
+    </footer>
+
+    <script src="javascript/domDaPagina.js"></script>
+</body>
+</html>

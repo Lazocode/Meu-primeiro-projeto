@@ -1,0 +1,36 @@
+ @media (min-width: 720px) {
+    header {
+        font-size: 1.5rem;
+    }
+
+    main {
+        width: 80%;
+        height: auto;
+        padding: 40px;
+    }
+
+    section {
+        margin: 30px;
+        padding: 25px;
+    }
+
+    input {
+        font-size: 16px;
+        padding: 10px;
+    } 
+    
+    button {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    li {
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+
+    .menu li {
+        display: inline;
+        margin-right: 20px;
+    }
+}
